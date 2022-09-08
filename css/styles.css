@@ -1,0 +1,190 @@
+/* Make all font to Montserrat */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* set h1 properties */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+/* set container so that all items under container is formatted accordingly */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navigation bar */
+/* adding a space between navigation bar and title section, make navbar brand align with the title section */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* set the brand so that it look more obvious */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* set navbar item to have more space between each item */
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/* Download button */
+/* create custom class and apply margin to button so that it look good and have a space between button and title */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+/* set title background color, make all font color to white */
+#title {
+  text-align: left;
+}
+
+/* Combine Selector */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* title image */
+/* Reduce image size, */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Section */
+/* Add space between title section and features section */
+#features {
+  /* set background color to white in order for the phone pgoto to overlap */
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Set properties to feature box */
+.feature-box {
+  padding: 5%;
+}
+
+/* set icon color inside feature box, add space between icon and feature box title */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* make icon change color when mouse pointer hover over */
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+/* make testimonial section to have space bwtween feature section and testimonial section, align text to center, change background color to differentiate testimonail
+section and feature section, make font color to white so that it look standard  */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* make image smaller, make border round and make space between testimonial title and image */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Change background color to match testimonial section, align text to center and add space between press section and pricing section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* make logo size smaller */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+/* Add space between press section and pricing section, make all text align to center */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Add space between card */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+.social-icon {
+  margin: 20px 10px;
+  /* Re-arrange all icon position so that it look more spacy  */
+}
+
+/* Media Query */
+/* fine tuning screen information at main screen when user view from laptop size and change to mobile size */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
